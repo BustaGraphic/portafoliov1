@@ -77,7 +77,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects" >
-      <h2 className="text-center text-4xl font-bold mt-4 mb-[-200px] md:my-[-150px] pb-[210px] sm:pt-[210px]">
+      <h2 className="text-center text-4xl font-bold mt-4 mb-[-200px] md:my-[-150px] pb-[210px] pt-[210px]">
         My <span className="text-gradient">Projects</span>
       </h2>
       <div className="flex flex-row justify-center items-center gap-2 my-6 h-[54px]">

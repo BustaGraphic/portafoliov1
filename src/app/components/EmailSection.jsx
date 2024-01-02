@@ -53,7 +53,7 @@ const EmailSection = () => {
   };
 
   return (
-    <section id="contact" className="sm:py-[210px]">
+    <section id="contact" className="pt-[210px]">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 sm:pb-[40px]">
         Contact <span className="text-gradient">Me</span>
       </h2>
