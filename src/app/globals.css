@@ -572,7 +572,7 @@ Para agregar más estilos, puedes seguir la misma convención y agregar clases a
 
 .bn11:before {
   content: "";
-  background: linear-gradient(45deg, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF);
+  background: linear-gradient(45deg, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF);
   position: absolute;
   top: -2px;
   left: -2px;
@@ -590,7 +590,7 @@ Para agregar más estilos, puedes seguir la misma convención y agregar clases a
 
 .bn12:before {
   content: "";
-  background: linear-gradient(45deg, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF);
+  background: linear-gradient(45deg, #0BE26E, #A22BFF, #0BE26E, #A22BFF, #0BE26E, #A22BFF);
   position: absolute;
   top: -2px;
   left: -2px;
