@@ -20,7 +20,7 @@ const HeroSection = () => {
   const [isLinkedInHovered, setIsLinkedInHovered] = useState(false);
 
   return (
-    <motion.section className="lg:py-8" initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
+    <motion.section className="pt-[100px]" initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
       <div className="grid grid-cols-1 sm:grid-cols-12 lg:mt-[-70px]">
         <motion.div className="col-span-8 text-center sm:text-left my-auto">
           <h1 className="text-white mb-4 sm:text-5xl text-5xl lg:text-8xl lg:leading-normal font-extrabold fuente  ">
