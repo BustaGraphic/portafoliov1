@@ -23,7 +23,7 @@ const HeroSection = () => {
     <motion.section className="lg:py-16" initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
       <div className="grid grid-cols-1 sm:grid-cols-12 lg:mt-[-70px]">
         <motion.div className="col-span-8 text-center sm:text-left my-auto">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold fuente  lg:mt-[-70px] ">
+          <h1 className="text-white mb-4 sm:text-5xl text-5xl lg:text-8xl lg:leading-normal font-extrabold fuente lg:mt-[-70px] mt-[80px]  ">
             <span className="text-gradient">
               Hello, I&apos;m
             </span>
@@ -59,7 +59,7 @@ const HeroSection = () => {
 
           </div>
         </motion.div>
-        <motion.div className="col-span-4 place-self-center mt-6 sm:mt-20 lg:mt-20">
+        <motion.div className="col-span-4 place-self-center mt-6 lg:mb-20 mb-[-200px] sm:mt-20 lg:mt-20">
 
           <div className="relative ">
 

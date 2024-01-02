@@ -60,7 +60,7 @@ const EmailSection = () => {
 
       <div className="grid md:grid-cols-2 my-12 md:my-12 gap-4 relative">
         <div className="z-10">
-          <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
+          <h5 className="text-xl font-bold text-white my-2">Get in touch</h5>
           <p className="text-[#ADB7BE] mb-4 max-w-md">
           I am open to new job opportunities and my email is always at your disposal. Feel free to contact me, either to ask a question or just to say hello. I will do my best to get back to you as soon as possible.
           </p>

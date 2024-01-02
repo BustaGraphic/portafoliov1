@@ -48,7 +48,14 @@ const TAB_DATA = [
             </span>
           </div>
         </div>
-        
+        <div className="skill-box">
+          <span className="title">Tailwind</span>
+          <div className="skill-bar">
+            <span className="skill-per tailwind">
+
+            </span>
+          </div>
+        </div>
 
       </div>
     ),
@@ -175,8 +182,8 @@ const AboutSection = () => {
 
   return (
     <section className="text-white pt-[-200px] " id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:pb-[0px] sm:pt-[200px] xl:px-16 ">
-        <div className="boxabout" />
+      <div className="md:grid md:grid-cols-2 gap-8 sm:items-center py-8 px-4 xl:gap-16  sm:pt-[200px] xl:px-16 ">
+        <div className="boxabout lg:w-[496px] " />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center items-start">
           <h2 className="text-4xl font-bold text-white mb-4">About <span className="text-gradient ">Me</span>
           </h2>
