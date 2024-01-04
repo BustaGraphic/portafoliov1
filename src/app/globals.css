@@ -695,7 +695,7 @@ Para agregar más estilos, puedes seguir la misma convención y agregar clases a
 }
 
 .skill-box .skill-bar {
-  width: 325px; 
+  
   height: 8px;
   border-radius: 6px;
   background-color: #000;

@@ -28,7 +28,7 @@ const projectsData = [
   {
     id: 2,
     title: "Potography Portfolio Website",
-    aplications: [Html],
+    aplications: [Node, Java, Python],
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -37,7 +37,7 @@ const projectsData = [
   {
     id: 3,
     title: "E-commerce Application",
-    aplications: [Html],
+    aplications: [Html, Css, Js, Angular, Bootstrap],
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",

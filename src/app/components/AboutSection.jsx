@@ -10,7 +10,7 @@ const TAB_DATA = [
       <div className="containere">
         <div className="skill-box">
           <span className="title">HTML</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per html">
 
             </span>
@@ -18,7 +18,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">CSS</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per css">
 
             </span>
@@ -26,7 +26,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">JavaScript</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per javascript">
 
             </span>
@@ -34,7 +34,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">React</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per react">
 
             </span>
@@ -42,7 +42,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">Angular</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per angular">
 
             </span>
@@ -50,7 +50,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">Tailwind</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per tailwind">
 
             </span>
@@ -67,7 +67,7 @@ const TAB_DATA = [
       <div className="containere">
         <div className="skill-box">
           <span className="title">Java</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per java">
 
             </span>
@@ -75,7 +75,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">Python</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per python">
 
             </span>
@@ -83,7 +83,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">Node Js</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per nodejs">
 
             </span>
@@ -91,7 +91,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">Hibernate</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per hibernate">
 
             </span>
@@ -99,7 +99,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">Spring</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per spring">
 
             </span>
@@ -117,7 +117,7 @@ const TAB_DATA = [
       <div className="containere">
         <div className="skill-box">
           <span className="title">Photoshop</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per photoshop">
 
             </span>
@@ -125,7 +125,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">Illustrator</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per illustrator">
 
             </span>
@@ -133,7 +133,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">After Effects</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per ae">
 
             </span>
@@ -141,7 +141,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">Figma</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per figma">
 
             </span>
@@ -149,7 +149,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">InDesign</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per indes">
 
             </span>
@@ -157,7 +157,7 @@ const TAB_DATA = [
         </div>
         <div className="skill-box">
           <span className="title">XD</span>
-          <div className="skill-bar">
+          <div className="skill-bar lg:w-[325px] w-[210px]">
             <span className="skill-per xd">
 
             </span>
@@ -182,7 +182,7 @@ const AboutSection = () => {
 
   return (
     <section className="text-white  sm:mb-[110px] mb-[-170px] " id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 sm:items-center  px-4 xl:gap-16 pt-[200px] xl:px-16 ">
+      <div className="md:grid md:grid-cols-2 gap-8 sm:items-center  px-4 xl:gap-16 lg:pt-[200px] pt-20 xl:px-16 ">
         <div className="boxabout lg:w-[496px] " />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center items-start">
           <h2 className="text-4xl font-bold text-white mb-4">About <span className="text-gradient ">Me</span>
